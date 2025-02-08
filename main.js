@@ -2,9 +2,9 @@ let names = document.getElementById('text');
 let input = document.getElementById('holder');
 let button = document.getElementById('submit');
 let title = document.getElementById('title');
-function ShowName(valuess) {
+function ShowName(values) {
   console.log(input.value);
- history.pushState({},(input.value))
+ // history.pushState({},(input.value))
  title.innerHTML = (input.value);
   names.innerHTML = (input.value) ;
 }
